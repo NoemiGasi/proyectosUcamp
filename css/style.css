@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./imagenes/compu5.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.table{
+    width: 70%;
+    margin: 40px auto;
+}
+.list{
+    text-align: center;
+    width: 100%;
+}
+.td{
+    border: 4px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.input1{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(165,161,161);
+    border-radius: 4px;
+    font-size: 1rem;
+}   
+.input2{
+    background: rgb(121, 141, 165);
+    padding: 6px 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.input2:hover{
+    background: rgb(10, 14, 59);
+    color: white;
+}
+.button{
+    background:rgb(121, 141, 165);
+    padding: 6px 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover{
+    background: rgb(10, 14, 59);
+    color: white;
+}
