@@ -11,22 +11,22 @@
     <table class="table">
         <tr>
             <td class="td">
-                <form action="">
+                <form autocomplete="off" onsubmit="onFormSubmit()">
                     <div>
                         <label for="codigoProducto">Codigo del Producto</label>
-                        <input type="text" class="input1" name="codigoProducto">
+                        <input type="text" class="input1" name="codigoProducto" id="codigoProducto">
                     </div>
                     <div>
                         <label for="producto">Nombre del producto</label>
-                        <input type="text" class="input1" name="producto">
+                        <input type="text" class="input1" name="producto" id="producto">
                     </div>
                     <div>
                         <label for="cantidad">Cantidad</label>
-                        <input type="number" class="input1" name="cantidad">
+                        <input type="number" class="input1" name="cantidad" id="cantidad">
                     </div>
                     <div>
                         <label for="precio">Precio</label>
-                        <input type="number" class="input1" name="precio">
+                        <input type="number" class="input1" name="precio" id="precio">
                     </div>
                     <div class="form_action--button">
                         <input type="submit" class="input2" value="Enviar">
@@ -34,7 +34,7 @@
                     </div>
                 </form>
                 <td class="td">
-                    <table class="table list">
+                    <table class="table list" id="storeList">
                         <thead>
                             <tr class="tr">
                                 <th>Codigo del Producto</th>
@@ -51,6 +51,6 @@
             </td>
         </tr>
     </table>
-    <script src="/index.js"></script>
+    <script type="text/javascript" src="/index.js"></script>
 </body>
 </html>
